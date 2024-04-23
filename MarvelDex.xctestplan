@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "EDE562E4-5999-4ECD-81CE-2F4776698411",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MarvelDex.xcodeproj",
+      "identifier" : "35843A8A2BD070C000FE56E4",
+      "name" : "MarvelDex"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MarvelDex.xcodeproj",
+        "identifier" : "35843A9A2BD070C200FE56E4",
+        "name" : "MarvelDexTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MarvelDex.xcodeproj",
+        "identifier" : "35843AA42BD070C200FE56E4",
+        "name" : "MarvelDexUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
