@@ -37,10 +37,6 @@ Current features (some were left out due to time constraints):
 
 * User authentication for the Bookmarks view was implemented, checking whether the user device supports biometric authentication and prompting as an option.
 
-* Dependency Injection using Swinject was scrapped because some issues with Protocols inheriting ObservableObject came up and the lack of time resulted in this decision.
-
-* In the middle of the development process all data-related functions with completion handlers were migrated to use async/await, a wise decision, resulting in a cleaner and more efficient code. (no need to make sure to call every completion nor issues with retain cycles).
-
 * The Bookmarks feature was built using Realm database. This choice was made because I found adding CoreData to SwiftUI a bit too complex for a simple project (way easier with UIKit), and as SwiftData is a fairly recent feature, Realm was the practical solution.
 
 * The project also contains SwiftLint to ensure code styling, conventions and good practices
